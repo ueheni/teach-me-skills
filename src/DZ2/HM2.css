@@ -1,0 +1,87 @@
+*{
+	margin: 1px;
+}
+
+.telo{
+	width: 100%;
+	height: 1000px;
+}
+.kntr1{
+	width: 100%;
+	height: 245px;
+	display: flex;
+	justify-content: space-around;
+}
+.blue{
+	width: 19%;
+	height: 239px;
+	background-color: blue;
+}
+.kntr2{
+	width: 28%;
+	height:754px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.reds{
+	width: 100%;
+	height: 224px;
+	background-color: red;
+}
+.red{
+	width: 100%;
+	height: 254px;
+	background-color: red;
+}
+.kntr3{
+	width: 1px;
+	height: 754px;
+	background-color: black;
+}
+.telo2{
+	display: flex;
+}
+.telo3{
+	width: 28%;
+	height: 754px;
+}
+.kntr4{
+	height: 374px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.purple{
+	height:374px;
+	width: 30%;
+	background-color: purple;
+}
+.kntr5{
+	height: 379px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.yellow{
+	height: 379px;
+	width: 49%;
+	background-color: yellow;
+}
+.telo4{
+	width: 43%;
+	height: 754px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.kntr6{
+	width: 100%;
+	height: 250px;
+	background-color: #00c5ff;
+}
+.kntr7{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}
