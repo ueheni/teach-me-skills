@@ -1,0 +1,79 @@
+.grid1{
+	display: grid;
+	height: 150px;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 5px;
+}
+div{
+	margin: 1px;
+}
+
+.grid2{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 1fr 1fr;
+	width: 20%;
+	height: 500px;
+	grid-gap: 10px;
+}
+.telo1{
+	display: flex;
+}
+.line{
+	width: 1px;
+	height: 500px;
+	border: 1px solid black;
+}
+.telo2{
+	width: 60%;
+}
+.grid3{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	height: 200px;
+	grid-gap: 10px;
+}
+.grid4{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	height: 300px;
+	grid-gap: 10px;
+}
+.grid5{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1px 1fr 1px 1fr;	
+	width: 20%;
+	height: 500px;
+	grid-gap: 10px;
+}
+.blue{
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+}
+.red{
+	background-color: red;
+	width: 100%;
+	height: 100%;
+}
+.purple{
+	background-color: purple;
+	width: 100%;
+	height: 100%;
+}
+.orange{
+	background-color: orange;
+	width: 100%;
+	height: 100%;
+}
+.line2{
+	width: 100%;
+	border: 1px solid black;
+}
+.blue2{
+	background-color: #009fd5;
+	width: 100%;
+	height: 100%;
