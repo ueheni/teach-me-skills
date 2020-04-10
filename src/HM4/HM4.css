@@ -5,6 +5,7 @@ body{
 button{
 	all: unset;
 }
+
 .header1{
 	background-color: white;
 	width: 100%;
@@ -88,9 +89,9 @@ h1{
 	justify-content: space-between;
 }
 
-nav{
-	
-
+.nazv{
+	margin-top: 10px;
+	height: 20px;
 }
 
 .nazv:hover {
@@ -129,6 +130,10 @@ nav{
 	height: 500px;
 	/*overflow: auto;*/
 }
+.arrra{
+	overflow: auto;
+	width: 70%;
+}
 /*.grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -138,10 +143,12 @@ nav{
 }*/
 
 .kont{
-	justify-content: center;
+	min-height: 250px;
+	/*justify-content: center;*/
 	overflow: auto;
 	display: flex;
-	width: 70%;
+	width: 100%;
+	overflow-y: auto;
 }
 .product{
 	text-align: center;
