@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.flex{
+	display: flex;
+
+}
+
+footer{
+	width: 100%;
+	height: 70px;
+	background-color: #e9e9e9;
+	justify-content: space-between;
+	padding: 10px 10% 10px 10%;
+	box-sizing: border-box;
+}
+
+li.navigation_panel{
+	list-style-type: none;
+	display: inline;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.navigation:link{
+	color: black;
+}
+a.navigation:visited{
+	color: black;
+}
+a.navigation:active{
+	color: black;
+}
+a.navigation:hover{
+	color: #4ad2cd;
+}
+
+.home{
+	width: 100%;
+	height: 700px;
+	background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhIVFRUVFRUVFRUVEA8VFRUVFRUWFxUVFRUYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQID/8QAJxABAQEAAgECBgIDAQAAAAAAAAERAvAxQWESIVFxgbGRwaHR4fH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A5kMLAAACgAQhQAICxDiALUa4/L53+AZMa5M4AaAAAAAC1IAAALEIAVYgEIFAwAGv67O+yTks+nfZkFtKkq8oCflcQBbM76I18SAhBYCQMa5TARKAKhFBAADAwAwaBmgYAsQgAAFVKAAQAAClKQCEpADCCgkCUsBUwXc7+gPCQz6FA00AWLeLIC3ihKtoJooBEtWz0TAAANWIcQBFAF1ACgCouIC6Z9EoC1F1ACkAUsRuX5Z/n+gZRb35EoJGs1n4qAt41M7sJTAM7814xADvhqYnJAXSX2/Zm/2loGrO+BAat3O/hlf+FBAAWotiYBAW0EhhaYC98C/lASgAQAAKoIUKC6JKUChKuAgAKgaCosJAO/8AC/Lvg+xAQWkoEnkkJUBbiaQoLyqFACka0EIFoJgAAZ35gANz1Bnwi99TQSCy9yGgiyJaAt492JiyGg1OP1ufz+mbEn+yUA75LDAWd8tcue+zBQKEpgLEgoJAKAAB39EjWfLWbQNAgEC0AAAABTihAApIDXFnFW3QZw0MAKEAguAE9/8AxKEoEFxAAAFRdBLCr37FBCQKC6lhSABIUADAAAAXARcNQFtS0AKFAWoQoBIYWg16ezIoIACy/JLCkoAuJgALaBjWzPdg4gvfKd8i8YBc7TDSfUF5VnQoAALOKOvDwA52oAAAEIQgAACxAF5ISlgFFsQCkWUoLYiUBfiSwIAVcTAFw36IDV9kiVZQQqoASmAFgsQF+LBOQBQAAIAt9Uazv2BkVADDQFhOSLPIHPyhKWALxQgAABISFoNcbnhEoBgQAi4SLZ6AzRcv0TO7ANDFkBMKuLLPe/kGeQtv2ASL8JalAxUIBrV5ejOLQQMAMLAAWf7NWZ8wZItiYAKZ3v2BI1Z36JqSgUhYAUAAJDAGuXLfX/KccPiBMMKAaaABAgAALKIvuCaFAIAAAAAAegegBgSAsOXLS1AAAIvLj+Ei6CGhYBaABA73+QCUsCUALAAgQAAAgAXv8gAd/QACKAUoAHp32ABb4gAi+iABAAOPkADiALz8oAAAAAL6IALxWgDOgA//2Q==);
+	position: relative;
+}
+div.design{
+	position: absolute;
+	width: 35%;
+	top: 25%;
+	right: 10%;
+
+}
+
+h1{
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+span{
+	font-size: 20px;
+	line-height: 1.5em;
+	display: block;
+}
+
+.contact {
+	margin-top: 30px;
+	display: block;
+	width: 240px;
+	height: 70px;
+	color: white;
+	background-color:#4ad2cd;
+	border: none;
+	font-size: 25px; 
+}
+
+.about_us{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+}
+
+.abou_us_kontent{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	margin-top: 10em ;
+}
+
+.podpis{
+	margin-top: 30px;
+}
+h2{
+	font-size: 30px;
+}
+
+.professional_skills{
+	background-color: #f8f9f9;
+	width: 100%;
+	height: 700px;
+	padding: 10px 10% 10px 10%;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+.professional_skills_kont{
+	margin-top: 10em;
+	width: 40%;
+}
+
+.grey_rectangle{
+	width: 100%;
+	height: 3px;
+	background-color: grey;
+	margin-top: 15px;
+}
+.blue_rectangle{
+	width: 75%;
+	height: 3px;
+	background-color: #4ad2cd;
+}
+.blue_rectangle2{
+	width: 90%;
+	height: 3px;
+	background-color: #4ad2cd;
+}
+.blue_rectangle3{
+	width: 65%;
+	height: 3px;
+	background-color: #4ad2cd;
+}
+
+.procent{
+	list-style-type: none;
+	margin: 2em 0 2em 0;
+	font-size: 20px;
+
+}
+.professional_skills_spis{
+	padding: 0;
+}
+.professional_skills_img{
+	margin-top: 10em;
+	height: 400px;
+	width: 400px;
+}
