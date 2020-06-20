@@ -153,7 +153,10 @@ function task6(number) {
 function task7() {
   let result = null;
   // ваш код должен быть ниже этой строки
-
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
+  }
   // ваш код должен быть выше этой строки
   return result;
 }
@@ -171,4 +174,10 @@ function task8(num) {
 
   // ваш код должен быть выше этой строки
   return result;
+}
+ 
+function task9(str) {
+	for (let i = 0; i = 10; i++) {
+		
+	}
 }
